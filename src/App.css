@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+.razor {
+  margin: 0px 40px 0px 40px
+}
+
+.Picture>img {
+  width: 100%;
+  opacity: 0.4;
+  height: auto;
+}
+
+
+.Picture {
+  background: #333;
+  ;
+  /*clip-path: inset(20px 50px -10px 0 50px);*/
+}
+
+.overlay {
+  position: relative;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust the alpha (last) value to control opacity */
+}
+
+.image-container {
+  text-align: center;
+  /* Center the text horizontally */
+  position: relative;
+  /* Enable positioning of child elements */
+}
+
+.image-text {
+  position: absolute;
+  /* Position the text within the image container */
+  top: 50%;
+  /* Move the text vertically to the center */
+  left: 50%;
+  /* Move the text horizontally to the center */
+  transform: translate(-50%, -50%);
+  /* Center the text both vertically and horizontally */
+  background-color: none;
+  /* Semi-transparent background color for text */
+  color: white;
+  /* Text color */
+  padding: 10px 20px;
+  /* Add padding to the text */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .image-container {
+    text-align: center;
+    /* Center the text horizontally */
+  }
+
+  .image-text {
+    display: none;
+    /* Hide the text on screens <= 768px */
+  }
+}
+
+.DonationPage {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS for the custom submit button */
+.custom-button {
+  padding: 10px 20px;
+  /* Adjust padding as needed */
+  background-color: #007bff;
+  /* Background color */
+  color: #fff;
+  /* Text color */
+  border: none;
+  /* Remove the border */
+  border-radius: 5px;
+  /* Add rounded corners */
+  cursor: pointer;
+  /* Change cursor to a pointer on hover */
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+  /* Background color on hover */
+}
+
+
+/* Style the header and navigation bar */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.kids {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 75px;
+  font-weight: 500;
+}
+
+.razor {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+}
+
+.logo a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 18px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: lightblue;
+  /* Change to your desired hover color */
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
